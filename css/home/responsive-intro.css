@@ -41,6 +41,8 @@
     display: inline-block;
     width: 0.5rem;
     height: 0.8125rem;
+    /* caminho padrão para o desenvolvimento
+     mas na hora de subir o caminho deverá ser outro */
     /* background-image: url(../../img/icons/arrow.svg); */
     background-image: url(./img/icons/arrow.svg);
     background-repeat: no-repeat;

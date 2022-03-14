@@ -29,6 +29,8 @@
   display: inline-block;
   width: 793px;
   height: 572px;
+  /* caminho padrão para o desenvolvimento
+     mas na hora de subir o caminho deverá ser outro */
   /* background-image: url(../../img/blur-1.png); */
   background-image: url(./img/blur-1.png);
   position: absolute;
