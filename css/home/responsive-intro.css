@@ -41,7 +41,8 @@
     display: inline-block;
     width: 0.5rem;
     height: 0.8125rem;
-    background-image: url(../../img/icons/arrow.svg);
+    /* background-image: url(../../img/icons/arrow.svg); */
+    background-image: url(./img/icons/arrow.svg);
     background-repeat: no-repeat;
   }
 }
