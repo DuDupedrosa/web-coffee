@@ -1,0 +1,8 @@
+@import url(./global/reset.css);
+@import url(./global/utility/variable.css);
+@import url(./global/utility/style-geral.css);
+
+/* home */
+@import url(./home/header.css);
+@import url(./home/intro.css);
+@import url(./home/responsive-intro.css);

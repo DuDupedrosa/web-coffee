@@ -1,0 +1,69 @@
+/* estilos do texto que auxilia o usuários
+     quando está no responsivo ou seja
+     o texto só é ativado quando estiver 
+     a baixo de 820px */
+.text-callback-responsive {
+  font-weight: 600;
+  font-size: var(--size-5);
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.02rem;
+  color: var(--color-1);
+  max-width: 23.375rem;
+  margin: 0 auto;
+  display: none;
+}
+
+/* estilos do button que é gerado com 820px
+   clone do btn do header so que faz ação contrária
+   por conta do posicionamento, feito através do JavaScript.
+   por isso acima de 820px display de none e menor que isso
+   ele ganha sua visibilidade e seus respectivos estilos */
+.btn-get-coffee-response {
+  display: none;
+}
+
+@media (max-width: 51.25rem) {
+  .btn-get-coffee-response {
+    max-width: max-content;
+    margin: 5.5rem auto 6.25rem auto;
+    display: block;
+  }
+
+  .btn-get-coffee-response a {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+  }
+
+  .btn-get-coffee-response a::after {
+    content: "";
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.8125rem;
+    background-image: url(../../img/icons/arrow.svg);
+    background-repeat: no-repeat;
+  }
+}
+/* termina os estilos do button-responsive */
+
+/* responsivo geral da intro */
+@media (max-width: 51.25rem) {
+  .text-callback-responsive {
+    display: block;
+  }
+
+  .coffee-intro {
+    padding: 0 1.25rem;
+  }
+
+  .coffer-intro-text-title {
+    font-size: var(--size-6);
+    line-height: 1.7;
+    margin-right: 0;
+  }
+
+  .coffee-intro-bg::before {
+    display: none;
+  }
+}

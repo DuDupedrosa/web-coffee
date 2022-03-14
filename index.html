@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <title>Rocket-Coffee</title>
+  <meta name="description" content="Venha conhecer o café, que fará seu código decolar para o próximo nível.">
+
+  <!-- metas:ogs -->
+  <meta property="og:title" content="Rocket-Coffee">
+  <meta property="og:description" content="Venha conhecer o café, que fará seu código decolar para o próximo nível">
+  <meta property="og:type" content="WebSite">
+
+  <!-- font-family externa / Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- links / css -->
+  <link rel="preload" href="./style.min.css" as="style">
+  <link rel="stylesheet" href="./style.min.css">
+</head>
+
+<body id="body">
+  <div class="grid-geral">
+    <header class="header-bg">
+      <div class="container header">
+        <div class="header-logo">
+          <a href="./index.html">
+            <picture>
+              <source media="(max-width: 800px)" srcset="./img/icons/logo-mobile.svg">
+              <img src="./img/icons/Logo.svg" alt="logo">
+            </picture>
+          </a>
+        </div>
+        <nav class="nav-principal" data-menu aria-label="Navegação principal">
+          <ul class="nav-principal-itens" data-menu="list">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html">Menu</a></li>
+            <li><a href="./index.html">Recompensas</a></li>
+            <li><a href="./index.html">Gift cards</a></li>
+            <li><a href="./index.html">Gift cards</a></li>
+          </ul>
+        </nav>
+        <!-- caixa que segura o ícone do menu hambúrguer
+        que só é carregado quando chega em 820px começa sempre
+        com display none -->
+        <div class="img-menu-hamburguer-820px" data-menu="button" aria-label="Botão para abrir o menu principal">
+          <img src="./img/icons/Menu-hamburguer.svg" alt="Menu hambúrguer" data-menu="img" width="24" height="8">
+        </div>
+        <div class="btn-get-coffee" data-clone>
+          <a href="./index.html">Pegar meu café</a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="coffee-intro-bg" data-content aria-label="apresentação do rocket coffee">
+        <div class="coffee-intro container" data-content="content">
+          <div class="coffee-intro-text">
+            <h1 class="coffer-intro-text-title">Great coffee</h1>
+            <span class="coffer-intro-text-title">&lt;Great code/&gt;</span>
+          </div>
+          <div class="coffee-intro-img">
+            <img src="./img/Img-coffee.png" alt="Coffee" width="1598" height="898">
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>

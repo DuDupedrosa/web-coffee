@@ -1,0 +1,23 @@
+:root {
+  /* colors */
+  --color-1: #ffffff;
+  --color-2: #8257e5;
+  --color-3: #a8a8b3;
+
+  /* backgrounds */
+  --background-1: #29292e;
+  --background-2: #8257e5;
+  --background-3: #000000;
+
+  /* font-sizes */
+  --size-1: 0.6875rem; /* 11px  */
+  --size-2: 0.875rem; /* 12px  */
+  --size-3: 1.125rem; /* 18px  */
+  --size-4: 1.25rem; /* 20px  */
+  --size-5: 1.875rem; /* 30px  */
+  --size-6: 2.5rem; /* 40px  */
+  --size-max: 5rem; /* 80px  */
+
+  /* font-family */
+  --family-1: "Manrope", sans-serif;
+}

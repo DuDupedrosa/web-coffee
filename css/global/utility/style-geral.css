@@ -1,0 +1,17 @@
+#body {
+  font-family: var(--family-1);
+}
+
+#body {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--background-3);
+}
+
+/* container geral */
+.container {
+  max-width: 57.5rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  box-sizing: border-box;
+}
